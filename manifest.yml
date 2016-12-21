@@ -1,0 +1,7 @@
+---
+applications:
+- name: remove-session-state-lab
+  memory: 512MB
+  path: target/remove-session-state-lab.war
+  services:
+    - redis
